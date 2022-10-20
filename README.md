@@ -1,13 +1,18 @@
 ## Q + A
 1. How do we assign a value to a variable?
+let
+const
+var
 2. How do we change the value of a variable?
+car = "strings";
 3. How do we assign an existing variable to a new variable?
 4. Remind me, what are declare, assign, and define?
-
+//declare - to define or specify a variable 
 ### Research 
 
 5. What is pseudocoding and why should you do it?
-
+ //pseudocoding is the action of explaining or defineing your process with in readable format.
+ and better understanind of your code and how code function.
 6. What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
 
 ## Strings
