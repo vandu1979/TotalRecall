@@ -1,11 +1,13 @@
 ## Q + A
 1. How do we assign a value to a variable?
-let
-const
-var
+- let - let x = 1;
+- const - const x = 1;
+- var - varOne = 5;
 2. How do we change the value of a variable?
 car = "strings";
 3. How do we assign an existing variable to a new variable?
+var myNote = "Milk"
+myNote = "Cookies"
 4. Remind me, what are declare, assign, and define?
 //declare - to define or specify a variable 
 ### Research 
@@ -47,14 +49,6 @@ Using the provided variable definitions, replace the blanks so that all log stat
   `console.log('Name' __ 'Name');`
   
   ### // FOR THE NEXT TWO, USE ONLY && OR ||
-
-  `console.log(true __ false);`
-  `console.log(false __ false __ false __ false __ false __ true);`
-  `console.log(false __ false)`
-  `console.log(e ___ 'Kevin');`
-  `console.log(a __ b ___ c); // note: a < b < c is NOT CORRECT (and is not a valid JS expression, think about using other math operations)`
-  `console.log(a __ a ___ d); // note: the answer is a simple arithmetic equation, not something "weird"`
-  `console.log(48 __ '48');`
 
 ### The Farm 
 
@@ -137,7 +131,9 @@ Check your work! Your `bank_account` should have $10,100 in it.
 What are the things in an array called?
 Do Arrays guarantee those things will be in order?
 What real-life thing could you model with an array?
-
+// elements 
+// yes, non- alphabaatical
+// anythin with information ( restaurant menu, music playlist)
 
 
 ### B. Easy Does It
@@ -150,9 +146,9 @@ Create an array that contains three quotes and store it in a variable called quo
 Given the following array `const randomThings = [1, 10, "Hello", true]`
 
 - How do you access the 1st element in the array?
-
+// randomThings[0];
 - Change the value of `"Hello"` to `"World"`
-
+//randomThings[2] = "World"
 - Check the value of the array to make sure it updated the array using `console.log()`
 
 
@@ -160,10 +156,12 @@ Given the following array `const randomThings = [1, 10, "Hello", true]`
 Given the following array const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
 
 What would you write to access the 3rd element of the array?
+ourClass[2];
 Change the value of "Github" to "Octocat"
+ourClass[4] = "Octocat"
 Add a new element, "Cloud City" to the array
-
-
+// ourClass.push("Cloud City" )
+// ourClass.unshift("Cloud City" )
 
 ### E. Mix It Up
 
