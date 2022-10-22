@@ -165,38 +165,38 @@
 
 // What's in Your Closet?
 
-const kristynscloset = [
-    "left shoe",
-  "cowboy boots",
-  "right sock",
-  "GA hoodie",
-  "green pants",
-  "yellow knit hat",
-  "marshmallow peeps" 
-];
-console.log(`Kristyn is rocking that ${kristynscloset[2]} today!`)
-kristynscloset.splice(6,0,"raybans")
-kristynscloset.splice(5,1,"stained knit hat")
-console.log(kristynscloset)
-const thomsCloset = [
-    [
-      // These are Thom's shirts
-      "grey button-up",
-      "dark grey button-up",
-      "light blue button-up",
-      "blue button-up",
-    ],[
-      // These are Thom's pants
-      "grey jeans",
-      "jeans",
-      "PJs"
-    ],[
-      // Thom's accessories
-      "wool mittens",
-      "wool scarf",
-      "raybans"
-    ]
-  ];
+// const kristynscloset = [
+//     "left shoe",
+//   "cowboy boots",
+//   "right sock",
+//   "GA hoodie",
+//   "green pants",
+//   "yellow knit hat",
+//   "marshmallow peeps" 
+// ];
+// console.log(`Kristyn is rocking that ${kristynscloset[2]} today!`)
+// kristynscloset.splice(6,0,"raybans")
+// kristynscloset.splice(5,1,"stained knit hat")
+// console.log(kristynscloset)
+// const thomsCloset = [
+//     [
+//       // These are Thom's shirts
+//       "grey button-up",
+//       "dark grey button-up",
+//       "light blue button-up",
+//       "blue button-up",
+//     ],[
+//       // These are Thom's pants
+//       "grey jeans",
+//       "jeans",
+//       "PJs"
+//     ],[
+//       // Thom's accessories
+//       "wool mittens",
+//       "wool scarf",
+//       "raybans"
+//     ]
+//   ];
   //console.log(thomsCloset[0][0])
 
   
@@ -215,7 +215,7 @@ const thomsCloset = [
 // } 
 //  name = prompt("What is your name?")
 // console.log(`${this.name} is cool!`)
-
+// tried without function arrow method.
 //calculateCube = function(length, width, height){
 //     //this is one way
 //     this.length = length;
@@ -226,11 +226,73 @@ const thomsCloset = [
 // }
 // let cubeVolume = newcalculate
 // console.log(totalVolume)
-let calculateCube = (length, width, height) => {
-    length = prompt("enter a length");
-    width = prompt("enter a width");
-    height = prompt("enter a height");
-    let volume = length * width * height;
-    console.log(`this cube has the volume of ${volume}`);
+///////////////////////////////////////////
+// let calculateCube = (length, width, height) => {
+//     length = prompt("enter a length");
+//     width = prompt("enter a width");
+//     height = prompt("enter a height");
+//     let volume = length * width * height;
+//     console.log(`this cube has the volume of ${volume}`);
+// }
+// calculateCube(5,5,5);
+ 
+//vowel 
+
+// function isVowel(letter){
+
+
+
+// let vowels = ["a", "e", "i","o","u"]
+  
+// for(i = 0; i < vowels.length; i++){
+//     if (letter === vowels[i]){
+
+   
+//     return true;
+// }
+// }
+// return false;
+// }
+// console.log("e is a vowel?", isVowel("e"))
+
+//  function twoLengths(string1,strings2){
+//     let arr = [];
+//     for(var i = 0; i < arguments.length; i++){
+//         arr.push(arguments[i].length);
+//     }
+//     return arr;
+
+//     console.log(twoLengths("Hiiiii", "Yayyyyyyyyy", "Hellooooooooo"))
+    
+//  }
+
+//  //or another solution
+//  function getTwoLengths(string1, strings2){
+//     return [string1.length, strings2.length];
+//  }
+
+ //getMultipleLengths
+
+ // need to do this exercise
+
+
+ //maxOfThree
+
+//  function maxOfThree(a, b, c)
+//  if((a >= b) && (a >= c)){
+//     return a;
+//  } else if ((b >= a) && (b >= c)) {
+//     return b;
+//  } else {return c;
+// }
+
+function printLongestWord(arr){
+  let aWord = "";
+  
+  for (aWord.length < arr[i].length){
+    aWord = arr[i];
+  } 
+  return aWord;
+
+  console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]))
 }
-calculateCube(5,5,5);
